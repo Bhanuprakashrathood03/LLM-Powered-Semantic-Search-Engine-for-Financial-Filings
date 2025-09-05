@@ -57,7 +57,7 @@ State-of-the-Art Performance: Models using the masked and permuted pre-training 
 
 The structure of MPNet.
 
-![The structure of MPNet.](images/001.png "The structure of MPNet.")
+![The structure of MPNet.](image_01.png)
 
 The attention mask of MPNet
 
