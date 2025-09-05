@@ -38,9 +38,8 @@ Searching Large Embeddings: searching a large embeddings created from enermous d
 This could be overcome using elastic search or embedding database to store & match the embeddings of the articles against a query.
 
 Computational Resources: Deep learning models are resource-intensive, both in terms of training and inference. In this repository 20K articles was used for training which consumed 3 hours of computation on i7 8th generation CPU utilizing 16 GB of memeory.
-
 **1.1 Embedding Creation:** 
-Embeddings are created using [MPNet](https://www.microsoft.com/en-us/research/uploads/prod/2020/11/NIPS_MPNet.pdf "MPNet") model that was developed by microsoft research team. 
+Embeddings are created using [MPNet](https://www.microsoft.com/en-us/research/wp-content/uploads/2020/11/NIPS_MPNet.pdf "MPNet") model that was developed by microsoft research team. 
 MPNet "Masked and Permuted Pre-training for Language Understanding" is a training approach used in natural language understanding (NLU) models, and it builds upon the pre-training techniques that have been popularized by models like BERT (Bidirectional Encoder Representations from Transformers).
 
 Pre-training: Similar to BERT, this method pre-trains a neural network model using a significant body of text data. The model gains the ability to anticipate missing or hidden words in a sentence during this pre-training phase, which aids in the model's ability to understand context and semantics.
