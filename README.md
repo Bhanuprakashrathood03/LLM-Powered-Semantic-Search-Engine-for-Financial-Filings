@@ -61,7 +61,7 @@ The structure of MPNet.
 
 The attention mask of MPNet
 
-![The attention mask of MPNet](images_02.png)
+![The attention mask of MPNet](image_02.png)
 
 **1.2 Benifits of MPNet**
 
